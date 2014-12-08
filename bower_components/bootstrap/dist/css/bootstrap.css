@@ -5,6 +5,32 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+.profile_box {
+  border: 1px solid #e1e8ed;
+  background: #FFF;
+  border-radius: 6px;
+}
+
+.disclaimer {
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  padding: 15px;
+  line-height: 18px;
+  border-radius: 6px;
+}
+
+.disclaimer a {
+  color: #8899a6;
+}
+
+.disclaimer a:hover {
+  text-decoration: underline;
+  color: #8899a6;
+}
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -264,6 +290,14 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+@font-face {
+  font-family: 'Rosetta';
+  src: url('../fonts/rosetta-icons-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
 @font-face {
   font-family: 'Glyphicons Halflings';
 

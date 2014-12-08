@@ -16,6 +16,7 @@ This is our 6th weekend challenge and is a front-end challenge that involves att
 - CSS
 - Javascript
 - I will use this task to learn about Bootstrap
+- I am selectively deploying fonts such as Glyphicons, Rosetta Icons, and Font Awesome
 
 ###Core Twitter Brand Assets & Colours
 
