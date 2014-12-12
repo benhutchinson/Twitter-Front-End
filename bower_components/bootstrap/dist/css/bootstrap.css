@@ -31,6 +31,15 @@ nav {
   margin-left: 13px;
 }
 
+#search{
+  border: 0px;
+  background: none;
+  margin-left: -35px;
+  opacity: 0.6;
+  color: #292f33;
+  font-size: 12.5px; 
+}
+
 .nav li {
   list-style-type: none;
   padding-bottom: 10px;
@@ -139,6 +148,10 @@ nav {
   padding-right: 12px;
 }
 
+.logo {
+  margin-top: 3px; 
+}
+
 .logo_nav_icon {
   font-size: 20px;
   color: #55acee;
@@ -153,6 +166,7 @@ nav {
   border-radius: 4px 4px 4px 4px;
   font-size: 13px;
   line-height: 20px;
+  margin-bottom: 8px; 
 }
 
 .trends_box li {
@@ -166,34 +180,6 @@ nav {
   text-decoration: underline;
 }
   
-.sidebar_header {
-  font-weight: 300;
-  line-height: 22px;
-  font-size: 18px;
-  color: #66757f;   
-}
-
-.sidebar_subheader {
-  color: #020836;
-  font-size: 12px;
-}
-
-.sidebar_subheader:hover {
-  text-decoration: underline;
-}
-
-.gmail_advert {
-  font-size: 14px;
-  font-weight: bold;
-  color: #292f33;
-}
-
-.gmail_sub_advert {
-  font-size: 12px;
-  font-weight: normal;
-  color: #8899a6;
-}
-
 .profile_box {
   background-color: white;
   padding-top: 96px;
@@ -206,6 +192,7 @@ nav {
   background-repeat: no-repeat;
   border: 1px solid #e1e8ed;
   border-radius: 4px 4px 4px 4px;
+  margin-bottom: 8px;
 }
 
 .user_id {
@@ -239,6 +226,7 @@ nav {
   padding-top: 3px;
   font-weight: 500;
   color: #020835;
+  vertical-align: bottom;
 }
 
 .profile_user_name {
@@ -268,7 +256,7 @@ nav {
 }
 
 .user_stats {
-  margin-top: 12px;
+  margin-top: 10px;
   margin-left: -40px; 
   margin-bottom: -10px;
 }
@@ -289,14 +277,183 @@ nav {
   width: 100px;
 }
 
+.sidebar_titles {
+  padding: 10px;
+  padding-bottom: 2px; 
+}
+
+.follow_suggestions {
+  padding: 10px;
+  margin-bottom: -18px;
+}
+
+.sidebar_header {
+  font-weight: 300;
+  line-height: 22px;
+  font-size: 18px;
+  color: #66757f;   
+}
+
+.sidebar_subheader {
+  color: #020836;
+  font-size: 12px;
+}
+
+.sidebar_subheader:hover {
+  text-decoration: underline;
+}
+
 .right_sidebar_box {
   font-size: 12px;
   background-color: #fff;
   border: 1px solid #e1e8ed;
-  padding: 10px;
   line-height: 18px;
   border-radius: 6px;
   width: 290px;
+  margin-bottom: 8px;
+}
+
+.follow_suggestions {
+  vertical-align: top;
+  padding-top: 0px;
+  padding-bottom: 20px; 
+}
+
+.follow {
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 248, 250));
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 4px;
+  color: rgb(41, 47, 51);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  height: 29px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 9px;
+  margin-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 3px;
+  position: relative;
+  text-align: center;
+  width: 86.5px;
+}
+
+.follow:hover {
+  background-image: linear-gradient(rgb(255, 255, 255), #F0F0F0);
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 4px;
+  color: rgb(41, 47, 51);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  height: 29px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 9px;
+  margin-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 3px;
+  position: relative;
+  text-align: center;
+  width: 86.5px;
+}
+
+.follow_button {
+  margin-left: 58px;
+  margin-top: -5px;  
+  color: rgb(136, 153, 166);
+  cursor: pointer;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: top;
+  text-align: left;
+  margin-bottom: 0px; 
+}
+
+cross {
+  font-family:Rosetta; 
+  opacity: 0.4; 
+  color: rgb(136, 153, 166); 
+  font-size: 19px; 
+  vertical-align: top;
+  margin-left: 185px; 
+  position: relative; 
+  top: -68px;
+}
+
+tweeter {
+  margin-left: 8px; 
+}
+
+.tweeter_name {
+  color: #292f33;
+  cursor: pointer;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 16px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.tweeter_name:hover {
+  text-decoration: underline;
+}
+
+.tweeter_handle {
+  margin-top: -32px;  
+  color: rgb(136, 153, 166);
+  cursor: pointer;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: top;
+  text-align: left
+}
+
+.followed_by {
+  margin-left: 60px;
+  margin-top: -32px;  
+  color: rgb(136, 153, 166);
+  cursor: pointer;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: top;
+  text-align: left
+}
+
+.disclaimer_box {
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  line-height: 18px;
+  border-radius: 6px;
+  width: 290px;
+  margin-bottom: 8px;
+  color: rgb(136, 153, 166);
+  padding: 10px; 
+}
+
+.disclaimer_box a {
+  cursor: pointer;
+  color: #8899a6;
+  padding-right: 8px;
+}
+
+.disclaimer_box a:hover {
+  text-decoration: underline;
+  color: #8899a6;
 }
 
 .right_sidebar_box a {
@@ -309,6 +466,97 @@ nav {
   color: #8899a6;
 }
 
+.who_to_follow_image {
+  border-radius: 5px;
+}
+
+.gmail_advert {
+  border-top: 1px solid #e1e8ed; 
+  padding: 10px; 
+  background-color: rgb(245, 248, 250);
+  font-size: 14px;
+  font-weight: bold;
+  color: #292f33;
+  vertical-align: top; 
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px; 
+}
+
+.gmail_advert hr {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.gmail_sub_advert {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: normal;
+  color: #8899a6;
+  float: left; 
+  margin-left: 47px;
+  margin-top: -20px; 
+  clear: both;
+}
+
+#gmail_image_container {
+  width: 34px;
+  height: 34px; 
+  border: 1px solid #e1e8ed;
+  border-radius: 2px; 
+  background-color: white;
+  padding: 7px;
+  margin-right: 4px;
+}
+
+#gmail_image {
+  cursor: pointer;
+  margin-top: 8px; 
+  width: 23px;
+  height: 23px; 
+  padding-bottom: 2px;
+  margin-bottom: 8px; 
+}
+
+#gmail_connect {
+  cursor: pointer;
+  color: #020836;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#gmail_connect:hover {
+  text-decoration: underline;
+}
+
+.central-column {
+  border-radius: 5px 5px 0 0;
+  border: 1px solid rgb(191, 193, 204);
+  width: 588px;
+  height: 63px; 
+  background-color: rgb(229, 230, 234);
+  padding: 10px 10px 0px 10px ;  
+}
+
+.central_tweet_form {
+  width: 506px;
+  font-size: 14px;
+  padding: 8px 10px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 3px;
+  border-color: rgba(2,8,54,0.25);
+  word-wrap: break-word;
+  line-height: 20px; 
+  resize: none;
+  display: inline; 
+  float: right;
+}
+
+#input::-webkit-input-placeholder
+{
+  color:    black;
+}
 
 html {
   font-family: sans-serif;

@@ -50,13 +50,18 @@
 </left>
 </li>
 
-<li> 
+<li class="logo"> 
 <span style="font-family:Rosetta" class="logo_nav_icon"></span> 
 </li>
 
 <li> 
 <form>
 <input class="nav_search_input" type="text" placeholder="Search Twitter">
+
+<button id="search">
+<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+</button>
+
 </form>
 </li>
 
@@ -74,61 +79,8 @@
 </ul>
 </nav>
 
-<!-- TrendsSideBarText -->
-<aside class="trends_box">
-<p><span class="sidebar_header">Trends · </span><span class="sidebar_subheader">Change</span></p>
-
-<ul>
-<li>#EricGarner</li>
-<li>#ICantBreathe</li>
-<li>Christmas</li>
-<li>#StereoKicksQnA</li>
-<li>Santa</li>
-<li>Ohio State</li>
-<li>#InterUdinese</li>
-<li>#MLSCup</li>
-<li>Villarreal</li>
-<li>Joey Galloway</li>
-</ul>
-
-</aside>
-
-
-<!-- WhoToFollowSideBarText -->
-<h1>WhoToFollow</h1>
-<aside class="right_sidebar_box">
-<section class="sidebar_titles">
-<p><span class="sidebar_header">Who to follow · </span>
-<span class="sidebar_subheader">Refresh</span>
-<span class="sidebar_header"> · </span>
-<span class="sidebar_subheader">View all</span>
-</p>
-</section>
-
-<section class="follow_suggestions">
-
-The FA @FA
-Followed by
-Follow
-Guillem Balague @Guille...
-LUFC Academy @LUFCaca...
-
-</section>
-
-<section class="gmail_advert">
-Find people you know
-<p><span class="gmail_sub_advert">Import your contacts from Gmail</span></p>
-<img src="public/images/gmail.png" width="24px" height="24px">
-</section>
-
-<span class="sidebar_subheader">Connect others address books</span>
-
-</aside>
-
-
 
 <!-- ProfileBoxText -->
-<h1>ProfileBox</h1>
 <aside class="profile_box">
 
 <img src="public/images/userprofileleft.jpeg" class="profile_image">
@@ -158,10 +110,92 @@ Find people you know
 
 </aside>
 
-<!-- DisclaimerElementText -->
-<h1>Disclaimer Element</h1>
+<!-- TrendsSideBarText -->
+<aside class="trends_box">
+<p><span class="sidebar_header">Trends · </span><span class="sidebar_subheader">Change</span></p>
 
+<ul>
+<li>#EricGarner</li>
+<li>#ICantBreathe</li>
+<li>Christmas</li>
+<li>#StereoKicksQnA</li>
+<li>Santa</li>
+<li>Ohio State</li>
+<li>#InterUdinese</li>
+<li>#MLSCup</li>
+<li>Villarreal</li>
+<li>Joey Galloway</li>
+</ul>
+
+</aside>
+
+
+<!-- WhoToFollowSideBarText -->
 <aside class="right_sidebar_box">
+<section class="sidebar_titles">
+<p><span class="sidebar_header">Who to follow · </span>
+<span class="sidebar_subheader">Refresh</span>
+<span class="sidebar_header"> · </span>
+<span class="sidebar_subheader">View all</span>
+</p>
+</section>
+
+<section class="follow_suggestions">
+
+<suggestion> 
+<img class="who_to_follow_image" src="public/images/skysports_profile.png" width="48px" height="48px">
+<tweeter><span class="tweeter_name">The FA</span><span class="tweeter_handle"> @FA</span></tweeter>
+<p class="followed_by">Followed by Makers</p>
+<p class="follow_button">
+<button class="follow">
+<follow style="font-family:Rosetta; color: #55ACEE; font-size: 14px; vertical-align: middle;"></follow> <follow style="vertical-align: middle"> Follow</follow>
+</button>
+<cross></cross>
+</p>
+</suggestion>
+
+<suggestion> 
+<img class="who_to_follow_image" src="public/images/bbcnews.jpeg" width="48px" height="48px">
+<tweeter><span class="tweeter_name">Sky Sports</span><span class="tweeter_handle"> @skysports</span></tweeter>
+<p class="followed_by">Followed by Makers</p>
+<p class="follow_button">
+<button class="follow">
+<follow style="font-family:Rosetta; color: #55ACEE; font-size: 14px; vertical-align: middle;"></follow> <follow style="vertical-align: middle"> Follow</follow>
+</button>
+<cross></cross>
+</p>
+</suggestion>
+
+<suggestion> 
+<img class="who_to_follow_image" src="public/images/guardian.png" width="48px" height="48px">
+<tweeter><span class="tweeter_name">The Guardian</span><span class="tweeter_handle"> @guardian</span></tweeter>
+<p class="followed_by">Followed by Makers</p>
+<p class="follow_button">
+<button class="follow">
+<follow style="font-family:Rosetta; color: #55ACEE; font-size: 14px; vertical-align: middle;"></follow> <follow style="vertical-align: middle"> Follow</follow>
+</button>
+<cross></cross>
+</p>
+</suggestion>
+
+</section>
+
+<section class="gmail_advert">
+<span id="gmail_image_container"><img id="gmail_image" src="public/images/gmail.png"></span>
+Find people you know
+<span class="gmail_sub_advert">Import your contacts from Gmail</span>
+<hr>
+
+<span id="gmail_connect">Connect other address books</span>
+</section>
+
+</aside>
+
+
+<!-- DisclaimerElementText -->
+
+
+<aside class="disclaimer_box">
 
 <a href="#">© 2014 Twitter</a>
 <a href="#">About</a>
@@ -184,27 +218,30 @@ Find people you know
 
 
 
-<h1>Content will go here</h1>
-<!-- Icons -->
+
+<!-- Central Column -->
+
+<section class ="central-column"> 
+
+<form>
+<textarea id="input" maxlength="140" class="central_tweet_form" placeholder="What's happening?"></textarea>
+</form>
+<img src="public/images/userprofileleft.jpeg" width="32px" height="32px" style="border-radius: 4px; margin-top: 2px; margin-right:13px; display: inline; float:right; ">
+
+</section>
+
+
+
+
 <p>
-
-
-<span class="glyphicon glyphicon-bell"></span>
-
-<span class="glyphicon glyphicon-comment"></span>
-
-<span class="glyphicon glyphicon-envelope"></span>
-
-<span class="glyphicon glyphicon-home"></span>
+</p>
 
 <span class="glyphicon glyphicon-map-marker"></span>
 
 
-<span class="glyphicon glyphicon-share"></span>
 
 <span class="glyphicon glyphicon-star"></span>
 
-<span class="glyphicon glyphicon-camera"></span>
 
 <img src="bower_components/bootstrap/fonts/glyphicons/png/glyphicons-519-option-horizontal.png">
 
@@ -219,25 +256,16 @@ Find people you know
 <p>
 
 <i class="fa fa-camera"></i>
-<i class="fa fa-envelope"></i>
-
 <i class="fa fa-reply"></i>
 <i class="fa fa-retweet"></i>
 
 </p>
-
-Official Rosetta Icons
 
 
 
 <p style="font-family:Rosetta">
 
 </p>
-
-
-
-
-
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
