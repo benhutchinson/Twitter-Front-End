@@ -8,7 +8,7 @@
 
 nav {
   height: 54px;
-  margin-top: -54px;
+  margin-top: -62px;
   width:100%;
   background-color: white;
   position: fixed;
@@ -16,6 +16,14 @@ nav {
   position: fixed;
   z-index: 1000;
   margin-bottom: 100px;
+}
+
+.nav_border {
+  width: 100%;
+  height: 1px;
+  margin-top: -6px;
+  display: block;
+  background-color: 1px solid #e1e8ed;
 }
 
 .nav_search_input {
@@ -28,6 +36,7 @@ nav {
   background-color: #f5f8fa;
   border: 1px solid #e1e8ed;
   border-radius: 21px;
+  margin-left: 13px;
 }
 
 .nav li {
@@ -53,6 +62,20 @@ nav {
   border-bottom: 4px solid #020836;
 }
 
+.tweet_button {
+  width: 92px;
+  height: 32px;
+  color:white;
+  background-color: rgba(2,8,54,.8);
+  padding: 0 13px 0 14px;
+  margin-left: 13px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.15);
+}
+
+.tweet_button:hover {
+  background-color: #292f33;
+}
+
 .nav_icon {
   font-size: 24px;
   width: 23px;
@@ -62,6 +85,13 @@ nav {
 
 .nav_text {
   font-size:13.3px;
+  font-weight: 500;
+  vertical-align: 5px;
+  padding-right: 12px;
+}
+
+.tweet_nav_text {
+  font-size:13.8px;
   font-weight: 500;
   vertical-align: 5px;
   padding-right: 12px;
@@ -243,7 +273,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin-top: 53px;
+  margin-top: 62px;
 }
 
 article,
