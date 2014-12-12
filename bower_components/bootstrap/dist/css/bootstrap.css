@@ -7,7 +7,7 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 nav {
-  height: 54px;
+  height: 55px;
   margin-top: -62px;
   width:100%;
   background-color: white;
@@ -16,14 +16,6 @@ nav {
   position: fixed;
   z-index: 1000;
   margin-bottom: 100px;
-}
-
-.nav_border {
-  width: 100%;
-  height: 1px;
-  margin-top: -6px;
-  display: block;
-  background-color: 1px solid #e1e8ed;
 }
 
 .nav_search_input {
@@ -52,28 +44,78 @@ nav {
   text-decoration: none;    
 }
 
-.nav_button {
+.nav li:first-child {
+  margin-top: -27px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.home_button {
+  cursor: pointer;
   color:#66757f;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #020836;
+}
+
+.home_button:hover {
+  color: #020836;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #020836;
+}
+
+.circle_highlight { 
+  margin-left: 3px;
+  color: #020836;
+  font-weight: bold;
+  font-family: Serif;
+  font-size: 32px;
+  vertical-align: 21px;
+  margin-right: -15px;
+}
+
+.nav_button {
+  cursor: pointer;
+  color:#66757f;
+  padding-bottom: 14px;
+  border-bottom: 0px solid #020836;
 }
 
 .nav_button:hover {
   color: #020836;
   padding-bottom: 10px;
   border-bottom: 4px solid #020836;
+  transition: all .15s ease-in;
+}
+
+.nav li:last-child {
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 13px;
+  padding: 0px;
 }
 
 .tweet_button {
-  width: 92px;
-  height: 32px;
+  width: 94px;
   color:white;
+  height: 32px; 
+  padding: 9px 1px 8px 1px;
   background-color: rgba(2,8,54,.8);
-  padding: 0 13px 0 14px;
-  margin-left: 13px;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.15);
+  border-radius: 4px; 
+  line-height: 13px; 
+  border-width: 1px; 
+  border-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px 0px inset;
 }
 
 .tweet_button:hover {
   background-color: #292f33;
+}
+
+.tweet_icon {
+  font-size: 21px;
+  height: 23px;
+  padding-left: 10px;
 }
 
 .nav_icon {
@@ -91,7 +133,7 @@ nav {
 }
 
 .tweet_nav_text {
-  font-size:13.8px;
+  font-size:13.3px;
   font-weight: 500;
   vertical-align: 5px;
   padding-right: 12px;
@@ -117,6 +159,7 @@ nav {
   list-style-type: none;
   margin-left: -38px;
   padding: 0;
+  color: #020836;
 }
 
 .trends_box li:hover {
