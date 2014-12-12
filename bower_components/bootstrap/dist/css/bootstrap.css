@@ -6,9 +6,10 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
+
 nav {
   height: 55px;
-  margin-top: -62px;
+  margin-top: -65px;
   width:100%;
   background-color: white;
   position: fixed;
@@ -178,6 +179,14 @@ nav {
 
 .trends_box li:hover {
   text-decoration: underline;
+}
+
+.core_content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1250px; 
+  padding-left: 10px; 
+  padding-right: 10px; 
 }
   
 .profile_box {
@@ -528,7 +537,24 @@ tweeter {
   text-decoration: underline;
 }
 
-.central-column {
+.left_column {
+  float: left;
+  display: inline;
+}
+
+.right_column {
+  float: left;
+  display: inline;
+}
+
+.central_column {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+.central-header {
   border-radius: 5px 5px 0 0;
   border: 1px solid rgb(191, 193, 204);
   width: 588px;
@@ -558,13 +584,96 @@ tweeter {
   color:    black;
 }
 
+.tweet {
+  border-top: 0px;
+  border-bottom: 1px solid #e1e8ed;
+  border-right: 1px solid #e1e8ed;
+  border-left: 1px solid #e1e8ed;
+/*  border-bottom: 1px solid rgb(191, 193, 204);
+  border-right: 1px solid rgb(191, 193, 204);
+  border-left: 1px solid rgb(191, 193, 204);*/
+  width: 588px;
+  min-height: 85px; 
+  background-color: white;
+  padding: 11px 12px 12px 12px;
+  padding-left: 70px;   
+}
+
+.tweet:hover {
+  background-color: rgb(245, 248, 250);
+}
+
+.tweet_header_text {
+  margin-top: -1px; 
+  text-align: top;
+  font-weight: bold;
+  margin-bottom: 0px; 
+}
+
+.embedded_tweet_image {
+  border-radius: 5px; width: 100%;
+}
+
+#tweet_time_user {
+  color: rgb(136, 153, 166);
+  font-weight: normal;
+}
+
+.tweet_nav {
+  padding-top: 5px; 
+  min-height: 30px; 
+  margin-left: -40px; 
+  margin-bottom: -15px; 
+}
+
+.tweet_nav ul {
+  margin-left: 0px; 
+}
+
+.tweet_nav li {
+  color: rgb(204, 214, 221);
+  list-style-type: none;
+  float: left;
+  display:inline-block;
+  margin-right: 50px; 
+  cursor: pointer;
+}
+
+.tweet_nav li:first-child {
+  margin-top: 1px; 
+}
+
+.tweet_nav li:first-child:hover {
+  color: black;
+}
+
+.tweet_nav li:nth-child(2) {
+  margin-top: -1px; 
+}
+
+.tweet_nav li:nth-child(2):hover {
+  color: #16a085;
+}
+
+.tweet_nav li:nth-child(3):hover {
+  color: #f1c40f;
+}
+
+.tweet_nav li:last-child {
+  margin-top: -5px; 
+}
+
+.tweet_nav li:last-child:hover {
+  color: black;
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin-top: 62px;
+  margin-top: 65px;
 }
 
 article,
