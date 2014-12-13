@@ -15,12 +15,12 @@ This is our 6th weekend challenge and is a front-end challenge that involves att
 - HTML5
 - CSS
 - Javascript
-- I will use this task to learn about Bootstrap
+- jQuery
 - I am selectively deploying fonts such as Glyphicons, Rosetta Icons, and Font Awesome
 
 ###Core Twitter Brand Assets & Colours
 
-- Twitter publishes its official brand assets, colour-scheme, and typography information [here](https://about.twitter.com/press/brand-assets)
+- Twitter actually publishes its official brand assets, colour-scheme, and typography information [here](https://about.twitter.com/press/brand-assets).  I am choosing to mirror the design of my personal Twitter account.
 
 ![Twitter Colour Guidelines](https://g.twimg.com/about/feature-corporate/image/About_colors_1.png)
 

@@ -1,0 +1,954 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+.nav_bleed {
+  height: 55px;
+  margin-top: -65px;
+  width:100%;
+  background-color: white;
+  position: fixed;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  position: fixed;
+  z-index: 1000;
+  margin-bottom: 100px;
+  padding: 0px;
+}
+
+.nav_align {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1250px; 
+  padding-left: 10px; 
+  padding-right: 10px; 
+}
+
+
+nav {
+  height: 55px;
+  width:100%;
+  background-color: white;
+  position: fixed;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  position: fixed;
+  z-index: 1000;
+}
+
+.nav_search_input {
+  height: 33px;
+  font-size: 12px;
+  width: 221px;
+  padding: 8px 27px 6px 12px;
+  line-height: 1;
+  color: #292f33;
+  background-color: #f5f8fa;
+  border: 1px solid #e1e8ed;
+  border-radius: 21px;
+  margin-left: 13px;
+}
+
+#search{
+  border: 0px;
+  background: none;
+  margin-left: -35px;
+  opacity: 0.6;
+  color: #292f33;
+  font-size: 12.5px; 
+}
+
+.nav{
+  width: 100%;
+}
+
+.nav li {
+  list-style-type: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  float: left;
+  display:inline-block;
+}
+
+.nav li:hover {
+  color: #020836;
+  text-decoration: none;    
+}
+
+.nav li:first-child {
+  margin-top: -27px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.home_button {
+  cursor: pointer;
+  color:#66757f;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #020836;
+}
+
+.home_button:hover {
+  color: #020836;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #020836;
+}
+
+.circle_highlight { 
+  margin-left: 3px;
+  color: #020836;
+  font-weight: bold;
+  font-family: Serif;
+  font-size: 32px;
+  vertical-align: 21px;
+  margin-right: -15px;
+}
+
+.nav_button {
+  cursor: pointer;
+  color:#66757f;
+  padding-bottom: 14px;
+  border-bottom: 0px solid #020836;
+}
+
+.nav_button:hover {
+  color: #020836;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #020836;
+  transition: all .15s ease-in;
+}
+
+.nav li:nth-child(5) {
+  width: 366px;
+  padding-left: auto;
+  padding-right: auto; 
+  text-align: middle; 
+}
+
+.nav li:nth-child(6) {
+  width: 238px; 
+}
+
+.nav li:nth-child(7) {
+  width: 45px; 
+}
+
+.nav li:last-child {
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 13px;
+  padding: 0px;
+  width: 94px;
+}
+
+.tweet_button {
+  width: 94px;
+  color:white;
+  height: 32px; 
+  padding: 9px 1px 8px 1px;
+  background-color: rgba(2,8,54,.8);
+  border-radius: 4px; 
+  line-height: 13px; 
+  border-width: 1px; 
+  border-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px 0px inset;
+}
+
+.tweet_button:hover {
+  background-color: #292f33;
+}
+
+.tweet_icon {
+  font-size: 21px;
+  height: 23px;
+  padding-left: 10px;
+}
+
+.nav_icon {
+  font-size: 24px;
+  width: 23px;
+  height: 23px;
+  padding-left: 10px;
+}
+
+.nav_text {
+  font-size:13.3px;
+  font-weight: 500;
+  vertical-align: 5px;
+  padding-right: 12px;
+}
+
+.tweet_nav_text {
+  font-size:13.3px;
+  font-weight: 500;
+  vertical-align: 5px;
+  padding-right: 12px;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px; 
+}
+
+.logo_nav_icon {
+  font-size: 24px;
+  color: #55acee;
+  text-align: center;
+}
+
+.trends_box {
+  background-color: white;
+  padding: 11px;
+  padding-bottom: 3px;
+  width: 290px;
+  border: 1px solid #e1e8ed;
+  border-radius: 4px 4px 4px 4px;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 8px; 
+}
+
+.trends_box li {
+  list-style-type: none;
+  margin-left: -38px;
+  padding: 0;
+  color: #020836;
+}
+
+.trends_box li:hover {
+  text-decoration: underline;
+}
+
+.core_content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1250px; 
+  padding-left: 10px; 
+  padding-right: 10px; 
+}
+  
+.profile_box {
+  background-color: white;
+  padding-top: 96px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-bottom: 0px;
+  width: 290px;
+  background-image: url('userbackground.jpeg');
+  background-size: 290px;
+  background-repeat: no-repeat;
+  border: 1px solid #e1e8ed;
+  border-radius: 4px 4px 4px 4px;
+  margin-bottom: 8px;
+}
+
+.user_id {
+  position: absolute;
+  margin-left: 74px;
+  margin-top: -36px;
+}
+
+.profile_image {
+  margin-top: -30px;
+  margin-left: -2px;
+  margin-right: 2px;
+  border-radius: 7px;
+  border: 3px solid white;
+  width: 72px;
+  height: 72px;
+}
+
+.profile_stat_header {
+  color: #8c9ca9;
+  font-size: 10px;
+  letter-spacing: .02em;
+}
+
+.profile_stat_header:hover{
+  color: #020835;
+}
+
+.profile_stat_value {
+  font-size: 18px;
+  padding-top: 3px;
+  font-weight: 500;
+  color: #020835;
+  vertical-align: bottom;
+}
+
+.profile_user_name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.profile_user_name:hover {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration: underline;
+}
+
+.profile_handle {
+  font-size: 12px;
+  padding-right: 5px;
+  color: #66757f;
+}
+
+.profile_handle:hover {
+  font-size: 12px;
+  padding-right: 5px;
+  color: #020835;
+  text-decoration: underline;
+}
+
+.user_stats {
+  margin-top: 10px;
+  margin-left: -40px; 
+  margin-bottom: -10px;
+}
+
+.user_stats li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display:inline-block;
+  width: 70px;
+}
+
+.user_stats li.right {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 25px;
+  display:inline-block;
+  width: 100px;
+}
+
+.sidebar_titles {
+  padding: 10px;
+  padding-bottom: 2px; 
+}
+
+.follow_suggestions {
+  padding: 10px;
+  margin-bottom: -18px;
+}
+
+.sidebar_header {
+  font-weight: 300;
+  line-height: 22px;
+  font-size: 18px;
+  color: #66757f;   
+}
+
+.sidebar_subheader {
+  color: #020836;
+  font-size: 12px;
+}
+
+.sidebar_subheader:hover {
+  text-decoration: underline;
+}
+
+.right_sidebar_box {
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  line-height: 18px;
+  border-radius: 6px;
+  width: 290px;
+  margin-bottom: 8px;
+}
+
+.follow_suggestions {
+  vertical-align: top;
+  padding-top: 0px;
+  padding-bottom: 20px; 
+}
+
+.follow {
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 248, 250));
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 4px;
+  color: rgb(41, 47, 51);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  height: 29px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 9px;
+  margin-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 3px;
+  position: relative;
+  text-align: center;
+  width: 86.5px;
+}
+
+.follow:hover {
+  background-image: linear-gradient(rgb(255, 255, 255), #F0F0F0);
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 4px;
+  color: rgb(41, 47, 51);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  height: 29px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 9px;
+  margin-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 3px;
+  position: relative;
+  text-align: center;
+  width: 86.5px;
+}
+
+.follow_button {
+  margin-left: 58px;
+  margin-top: -5px;  
+  color: rgb(136, 153, 166);
+  cursor: pointer;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: top;
+  text-align: left;
+  margin-bottom: 0px; 
+}
+
+cross {
+  font-family:Rosetta; 
+  opacity: 0.4; 
+  color: rgb(136, 153, 166); 
+  font-size: 19px; 
+  vertical-align: top;
+  margin-left: 185px; 
+  position: relative; 
+  top: -68px;
+}
+
+tweeter {
+  margin-left: 8px; 
+}
+
+.tweeter_name {
+  color: #292f33;
+  cursor: pointer;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 16px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.tweeter_name:hover {
+  text-decoration: underline;
+}
+
+.tweeter_handle {
+  margin-top: -32px;  
+  color: rgb(136, 153, 166);
+  cursor: pointer;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: top;
+  text-align: left
+}
+
+.followed_by {
+  margin-left: 60px;
+  margin-top: -32px;  
+  color: rgb(136, 153, 166);
+  cursor: pointer;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: top;
+  text-align: left
+}
+
+.disclaimer_box {
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  line-height: 18px;
+  border-radius: 6px;
+  width: 290px;
+  margin-bottom: 8px;
+  color: rgb(136, 153, 166);
+  padding: 10px; 
+}
+
+.disclaimer_box a {
+  cursor: pointer;
+  color: #8899a6;
+  padding-right: 8px;
+}
+
+.disclaimer_box a:hover {
+  text-decoration: underline;
+  color: #8899a6;
+}
+
+.right_sidebar_box a {
+  color: #8899a6;
+  padding-right: 8px;
+}
+
+.right_sidebar_box a:hover {
+  text-decoration: underline;
+  color: #8899a6;
+}
+
+.who_to_follow_image {
+  border-radius: 5px;
+}
+
+.gmail_advert {
+  border-top: 1px solid #e1e8ed; 
+  padding: 10px; 
+  background-color: rgb(245, 248, 250);
+  font-size: 14px;
+  font-weight: bold;
+  color: #292f33;
+  vertical-align: top; 
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px; 
+}
+
+.gmail_advert hr {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.gmail_sub_advert {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: normal;
+  color: #8899a6;
+  float: left; 
+  margin-left: 47px;
+  margin-top: -20px; 
+  clear: both;
+}
+
+#gmail_image_container {
+  width: 34px;
+  height: 34px; 
+  border: 1px solid #e1e8ed;
+  border-radius: 2px; 
+  background-color: white;
+  padding: 7px;
+  margin-right: 4px;
+}
+
+#gmail_image {
+  cursor: pointer;
+  margin-top: 8px; 
+  width: 23px;
+  height: 23px; 
+  padding-bottom: 2px;
+  margin-bottom: 8px; 
+}
+
+#gmail_connect {
+  cursor: pointer;
+  color: #020836;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#gmail_connect:hover {
+  text-decoration: underline;
+}
+
+.left_column {
+  float: left;
+  display: inline;
+}
+
+.right_column {
+  float: left;
+  display: inline;
+}
+
+.central_column {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+.central-header {
+  border-radius: 5px 5px 0 0;
+  border: 1px solid rgb(191, 193, 204);
+  width: 588px;
+  height: 63px; 
+  background-color: rgb(229, 230, 234);
+  padding: 10px 10px 0px 10px ;  
+}
+
+.central_tweet_form {
+  width: 506px;
+  font-size: 14px;
+  padding: 8px 10px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 3px;
+  border-color: rgba(2,8,54,0.25);
+  word-wrap: break-word;
+  line-height: 20px; 
+  resize: none;
+  display: inline; 
+  float: right;
+  margin-bottom: 10px; 
+}
+
+.central_tweet_form:focus {
+  outline:none;
+}
+
+#input::-webkit-input-placeholder {
+  color:    black;
+}
+
+.add_tweet_buttons {
+  display: none;
+  padding-left: 60px; 
+  cursor: pointer;
+  color:#020836;
+  font-size: 12px; 
+  margin-left: 0px; 
+  border: none;
+}
+
+.add_tweet_buttons button {
+  background: none;
+  opacity: 0.8;
+  padding: 6px 12px; 
+  margin-right: 0px; 
+  border: 1px solid transparent;
+  vertical-align: top;
+  height: 36px;
+}
+
+.add_tweet_buttons button:hover {
+  border: 1px solid rgba(2,8,54,0.25);
+  border-radius: 4px; 
+}
+
+.add_photo {
+  margin-left: 3px; 
+  vertical-align: text-bottom;
+}
+
+.add_location {
+  margin-left: 2px; 
+  vertical-align: 2.5px;
+}
+
+
+.tweet {
+  border-top: 0px;
+  border-bottom: 1px solid #e1e8ed;
+  border-right: 1px solid #e1e8ed;
+  border-left: 1px solid #e1e8ed;
+  width: 588px;
+  min-height: 85px; 
+  background-color: white;
+  padding: 11px 12px 12px 12px;
+  padding-left: 70px;   
+}
+
+.tweet:hover {
+  background-color: rgb(245, 248, 250);
+}
+
+.tweet_header_text {
+  margin-top: -1px; 
+  text-align: top;
+  font-weight: bold;
+  margin-bottom: 0px; 
+}
+
+.embedded_tweet_image {
+  border-radius: 5px; width: 100%;
+}
+
+#tweet_time_user {
+  color: rgb(136, 153, 166);
+  font-weight: normal;
+}
+
+.tweet_nav {
+  padding-top: 5px; 
+  min-height: 30px; 
+  margin-left: -40px; 
+  margin-bottom: -15px; 
+}
+
+.tweet_nav ul {
+  margin-left: 0px; 
+}
+
+.tweet_nav li {
+  color: rgb(204, 214, 221);
+  list-style-type: none;
+  float: left;
+  display:inline-block;
+  margin-right: 50px; 
+  cursor: pointer;
+}
+
+.tweet_nav li:first-child {
+  margin-top: 1px; 
+}
+
+.tweet_nav li:first-child a:hover {
+  color: black;
+}
+
+.tweet_nav li:nth-child(2) {
+  margin-top: -1px; 
+}
+
+.tweet_nav li:nth-child(2) a:hover {
+  color: #16a085;
+}
+
+.tweet_nav li:nth-child(3) a:hover {
+  color: #f1c40f;
+}
+
+.tweet_nav li:last-child {
+  margin-top: -5px; 
+}
+
+.tweet_nav li:last-child a:hover {
+  color: black;
+}
+
+.tweet_nav a {
+  text-decoration: none;
+  color: rgb(204, 214, 221);
+}
+
+.tweet_nav a:hover {
+  text-decoration: none;
+}
+
+
+#tip2 {
+  position: relative;
+  text-decoration: none;
+}
+#tip2 span {
+  display: none;
+}
+
+#tip2:hover span {
+  display: block;
+  position: absolute; 
+  padding: 7px;
+  content: attr(title);
+  text-align: center;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+  top: -47px;
+  left: -13px;
+  background: rgba(0,0,0,.8);
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:3px;    
+  color: #fff;
+  font-size: .86em;
+}
+
+#tip2:hover span:after {
+  position: absolute;
+  display: block;
+  content: "";  
+  border-color: rgba(0,0,0,.8) transparent transparent transparent;
+  border-style: solid;
+  border-width: 7px;
+  height:0;
+  width:0;
+  position:absolute;
+  bottom: -14px;
+  left:14px;
+}
+
+#tip3 {
+  position: relative;
+  text-decoration: none;
+}
+#tip3 span {display: none;}
+#tip3:hover span {
+  display: block;
+  position: absolute; 
+  padding: 7px;
+  content: attr(title);
+  text-align: center;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+  top: -47px;
+  left: -19px;
+  background: rgba(0,0,0,.8);
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:3px;    
+  color: #fff;
+  font-size: .86em;
+}
+#tip3:hover span:after {
+  position: absolute;
+  display: block;
+  content: "";  
+  border-color: rgba(0,0,0,.8) transparent transparent transparent;
+  border-style: solid;
+  border-width: 7px;
+  height:0;
+  width:0;
+  position:absolute;
+  bottom: -14px;
+  left:22px;
+}
+
+
+#tip4 {
+  position: relative;
+  text-decoration: none;
+}
+#tip4 span {display: none;}
+#tip4:hover span {
+  display: block;
+  position: absolute; 
+  padding: 7px;
+  content: attr(title);
+  text-align: center;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+  top: -47px;
+  left: -24px;
+  background: rgba(0,0,0,.8);
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:3px;    
+  color: #fff;
+  font-size: .86em;
+}
+#tip4:hover span:after {
+  position: absolute;
+  display: block;
+  content: "";  
+  border-color: rgba(0,0,0,.8) transparent transparent transparent;
+  border-style: solid;
+  border-width: 7px;
+  height:0;
+  width:0;
+  position:absolute;
+  bottom: -14px;
+  left:24px;
+}
+
+#tip5 {
+  position: relative;
+  text-decoration: none;
+}
+#tip5 span {display: none;}
+#tip5:hover span {
+  display: block;
+  position: absolute; 
+  padding: 7px;
+  content: attr(title);
+  text-align: center;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+  top: -75px;
+  left: -12px;
+  background: rgba(0,0,0,.8);
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:3px;    
+  color: #fff;
+  font-size: .86em;
+}
+#tip5:hover span:after {
+  position: absolute;
+  display: block;
+  content: "";  
+  border-color: rgba(0,0,0,.8) transparent transparent transparent;
+  border-style: solid;
+  border-width: 7px;
+  height:0;
+  width:0;
+  position:absolute;
+  bottom: -14px;
+  left:14px;
+}
+
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin-top: 65px;
+}
+
+@font-face {
+  font-family: 'Rosetta';
+  src: url('../fonts/rosetta-icons-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-star:before {
+  content: "\e006";
+}
+.glyphicon-star-empty:before {
+  content: "\e007";
+}
+.glyphicon-map-marker:before {
+  content: "\e062";
+}
+.glyphicon-search:before {
+  content: "\e003";
+}
