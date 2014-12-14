@@ -17,6 +17,13 @@ This is our 6th weekend challenge and is a front-end challenge that involves att
 - Javascript
 - jQuery
 - I am selectively deploying fonts such as Glyphicons, Rosetta Icons, and Font Awesome
+- jScroll for infinity-scrolling
+
+###Where I Would Like To Learn More
+- Mobile First
+- More Responsive CSS
+- More jQuery
+- Emulating a delay with either jScroll, or other infinity-scrolling packages
 
 ###Core Twitter Brand Assets & Colours
 
