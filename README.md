@@ -9,7 +9,6 @@ This is our 6th weekend challenge and is a front-end challenge that involves att
 - Infinite scrolling via Javascript that pulls in additional dummy data as you near the end of the page
 - A spinner graphic during an emulated delay as data is "loaded" during an infinite scroll
 - The tweet input box should expand when in focus
-- More responsive functionality vs Twitter's existing features that include resizing the search box and hiding labels in the navigation bar
 
 ###Technologies I Will Explore
 - HTML5
