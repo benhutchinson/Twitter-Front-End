@@ -21,7 +21,6 @@ This is our 6th weekend challenge and is a front-end challenge that involves att
 - Mobile First
 - More Responsive CSS
 - More jQuery
-- Emulating a delay with either jScroll, or other infinity-scrolling packages
 
 ###Core Twitter Brand Assets & Colours
 - Twitter actually publishes its official brand assets, colour-scheme, and typography information [here](https://about.twitter.com/press/brand-assets).  I am choosing to mirror the design of my personal Twitter account.
