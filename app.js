@@ -12,7 +12,9 @@ app.get('/', function (req, res) {
 })
 
 app.get('/dummycontent.html', function (req, res) {
-  res.render('dummy');
+  setTimeout(function(){
+    res.render('dummy');
+  }, 700);
 })
 
 http.listen(port, function(){
